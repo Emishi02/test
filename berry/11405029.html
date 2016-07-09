@@ -1,0 +1,80 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無題ドキュメント</title>
+<style type="text/css">
+body{
+	background-color:#EFEFEF;
+	color:#2D2D2D;
+	
+}
+li{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.wrapper{
+	width:450px;
+	margin:0 auto;
+	background-color:#B8B8B8;
+	color:#2B2B2B;
+	padding:10px;
+}
+
+input,textarea,select{
+	border:1px solid #232323;
+}
+input[type="text"]{
+	
+	background-color:#fff;
+}
+textarea{
+	background-color:#ECECEC;;
+}
+input[type="submit"]{
+	
+	width:200px;
+	height:40px;
+	background-color:#D5D5D5;;
+	font-size:16px;
+}
+label,span{
+	display:block;
+	width:120px;
+	float:left;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.cnt{
+	text-align:center;
+}
+li{
+	margin-bottom:15px;
+
+</style>
+
+
+
+</head>
+
+<body>
+<div class="wrapper">
+<form action="" method="post" name="form1">
+<ul>
+<li><label>名前</label><input type="text" name="name" /></li>
+<li><span>性別</span><label>女性<input type="radio" name="gender" value="female" /></label><label>男性<input type="radio" name="gender" value="male" /></label></li>
+<li><span>趣味</span><label>ネット<input type="checkbox" name="net" value="1" /></label><label>サボテン観察<input type="checkbox" name="plant" value="1" /></label><label>睡眠研究<input type="checkbox" name="sleep" value="1" /></label></li>
+<li><label>コメント</label><textarea name="comment"></textarea></li>
+<li><label>好きな食べ物</label><select name="food"><option value="1">イチゴ</option><option value="2">スイカ</option><option value="3">リンゴ</option></select></li>
+<li><input type="submit" /></li>
+</ul>
+</form>
+</div>
+</body>
+</html>
+

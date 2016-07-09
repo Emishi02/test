@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無題ドキュメント</title>
+<link href="normalize.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+body,h1,h2,h4,ul,li{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style-type:none;
+}
+img{
+    border:none;
+    vertical-align:bottom;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+/*---------ここまでは共通-------------*/
+body{
+    background-image:url(images/back.jpg);
+}
+.wrapper{
+    width:980px;
+    margin:0 auto;
+    border-right:1px solid #300;
+    border-left:1px solid #300;
+}
+.nav li{
+    float:left;
+}
+.photos{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.photos li{
+    float:left;
+    margin-left:20px;
+}
+.contents{
+    background-color: black;
+}
+h2{
+    text-align:center;/*imgタグに指定しても無駄*/
+}
+ul.news{/*ulタグのうち、class="news"がついているもの*/
+    margin-left:30px;
+    margin-top:5px;
+}
+.news li{
+    color: azure;
+    margin-bottom:7px;
+}
+h4{
+    background-image:url(images/footer.png);
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    color:#FFF;
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+<h1><img src="images/main.jpg" width="980" height="325" alt="ALL THE BERRY" /></h1>
+<ul class="nav clearfix">
+  <li><img src="images/menu_top.png" width="245" height="77" alt="top" /></li>
+  <li><img src="images/memu_concept.png" width="245" height="77" alt="Concept" /></li>
+  <li><img src="images/menu_products.png" width="245" height="77" alt="Products" /></li>
+  <li><img src="images/menu_shop.png" width="245" height="77" alt="Shop" /></li>
+</ul>
+<!--写真を３枚並べる部分-->
+<div class="contents">
+<ul class="photos clearfix">
+  <li><img src="images/jam.jpg" width="300" height="200" alt="jam" /></li>
+  <li><img src="images/tarte.jpg" width="300" height="200" alt="tarte" /></li>
+  <li><img src="images/cakes.jpg" width="300" height="200" alt="cake" /></li>
+</ul>
+<!--ニュース-->
+<h2><img src="images/news.png" width="942" height="45" alt="news" /></h2>
+<ul class="news">
+  <li>夏限定セールを行っています。ぜひお店にお出かけください</li>
+  <li>当店を本でご紹介して頂きました</li>
+  <li>新作のタルトをアップしました</li>
+</ul>
+<h4>Copyright ALL BERRY All Right Reserved.</h4>
+</div><!--//contents-->
+</div><!--//wrapper-->
+</body>
+</html>
